@@ -1,0 +1,133 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script type = "text/javascript" src = "mocay/js/jquery-slim.min.js"></script>
+<script type = "text/javascript" src = "mocay/js/popper.min.js"></script>
+<script type = "text/javascript" src = "mocay/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Contacts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home
+                
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="Create Contacts"><a class="nav-link" href="create.html">Create Contacts</a>
+            </li>
+			
+			 
+            <li class="nav-item">
+              <a class="nav-link" href="edit.html">Edit Contacts</a>
+            </li>
+			</li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact list.html">Contacts List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Search Contacts</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="delete.html">Delete Contacts</a>
+            </li>
+               <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+<br>
+<br>
+<form>
+  <div class="row">
+    <div class="col-sm-6 offset-sm-3">
+      <label for="firstname">First name</label>
+      <input type="text" class="form-control is-valid" id="firstname" placeholder="First name" required>
+	  <div class="invalid-feedback">
+        Please provide a valid First Name.
+      </div>
+    </div>
+	<div class="col-sm-6 offset-sm-3">
+      <label for="lastname">Last name</label>
+      <input type="text" class="form-control is-valid" id="lastname" placeholder="Last name" required>
+	  <div class="invalid-feedback">
+        Please provide a valid Last Name.
+      </div>
+    </div>
+	<div class="col-sm-6 offset-sm-3">
+      <label for="contactnumber">Contact Number</label>
+      <input type="text" class="form-control is-valid" id="contactnumber" placeholder="Contact Number" required>
+	  <div class="invalid-feedback">
+        Please provide a valid Contact Number.
+      </div>
+    </div>
+	<div class="col-sm-6 offset-sm-3">
+      <label for="address">Address</label>
+      <textarea class="form-control is-valid" id="address" placeholder="Address . . " required></textarea>
+	  <div class="invalid-feedback">
+        Please provide a valid Address.
+      </div>
+    </div>
+	<div class="col-sm-6 offset-sm-3">
+      <label for="emailaddress">Email Address</label>
+      <input type="email" class="form-control is-valid" id="emailaddress" placeholder="Email Address" required>
+	  <div class="invalid-feedback">
+        Please provide a valid Email Address.
+      </div>
+	   </div>
+	<div class="col-sm-6 offset-sm-3">
+      <label for="password">Password</label>
+      <input type="email" class="form-control is-valid" id="password" placeholder="password" required>
+	  <div class="invalid-feedback">
+        Please provide a valid password.
+      </div>
+    </div>
+	<div class="col-sm-6 offset-sm-3"><br>
+      <button  class="btn btn-secondary btn-block" type="submit">submit</button>
+    </div>
+  
+</form>
+<script>
+</script.
+
+
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+
+  window.addEventListener('load', function() {
+    var form = document.getElementById('needs-validation');
+    form.addEventListener('submit', function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  }, false);
+})();
+</script>
+  
+			
+		
+</body>
+
+</html>
